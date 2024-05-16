@@ -1,5 +1,5 @@
 version: STSv1
-mode: enforce
+mode: testing
 mx: engine01-20388-1.icritical.com
 mx: engine02-20388-2.icritical.com
 mx: somerhill-org.mail.protection.outlook.com 
