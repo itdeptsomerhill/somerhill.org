@@ -1,6 +1,58 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<meta name="robots" content="noindex">
-<title>Redirecting to .well-known/mta-sts.txt</title>
-<meta http-equiv="refresh" content="0; URL=.well-known/mta-sts.txt">
-<link rel="canonical" href=".well-known/mta-sts.txt">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>SOCS Calendar</title>
+
+  <style>
+    #SOCSCalendar {
+      border: 1px solid silver;
+      padding: 10px;
+      margin: 10px;
+      width: 300px;
+    }
+    #SOCSCalendar h1 {
+      color: navy;
+      margin: 20px 5px 10px;
+      font-weight: normal;
+      font-size: 18pt;
+    }
+    table.socs_day_events {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    table.socs_day_events th {
+      padding: 4px;
+      text-align: left;
+      color: navy;
+      font-weight: 400;
+    }
+    table.socs_day_events td {
+      padding: 4px;
+      text-align: left;
+    }
+    table.socs_day_events td.Timings {
+      white-space: nowrap;
+      width: 150px;
+    }
+    table.socs_day_events td.Venue {
+      width: 150px;
+    }
+    table.socs_day_events td.Title {
+      width: 150px;
+    }
+    table.socs_day_events span.canc {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="SOCSCalendar"><!-- SOCS Diary data will appear here --></div>
+
+  <script src="https://www.socscms.com/socs/plugin/api.js"></script>
+  <script type="text/javascript">
+    var socsURL = 'https://www.socscms.com/socs/plugin/api.ashx?FT=&D=&C=4194-3772-1692-1234-1729-1334-8933-1250-4030-10113-1335-4032-4608-4191-1333-1331-8592-1251-1730-2567-1330-1332-1233-1728&CC=18962-19961&ET=Fixture-MultiSport-Training-Competition-SportEvent&Y=&H=&key=FB448A17-CAD3-4EFF-A14C-746FDE53EFE9';
+  </script>
+</body>
+</html>
